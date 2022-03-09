@@ -1,72 +1,136 @@
-.container{
-    display: grid;
-    width: 100vw;
-    height: 100vh;
-    justify-content: center;
-    align-items: center;
-    background-image: linear-gradient( to top, hotpink,green);
-}
-.lb1{
-    font-size: 25px;
-    margin: 15px;
-    position: relative;
-    top: -100px;
-}
-.input1{
-    padding: 15px;
+.input-box{
     width: 200px;
-    position: relative;
-    top: -100px;
-    left: 90px;
-    border-radius: 15px;
-    border: 1px solid black;
-    margin: 20px;
-}
-.input2{
-    padding: 15px;
-    width: 200px;
-    position: relative;
-    top: -90px;
-    left: 10px;
-    border-radius: 15px;
-    border: 1px solid black;
-    margin: 20px;
-}
-.input3{
-    padding: 15px;
-    width: 200px;
-    position: relative;
-    top: -80px;
-    margin: 20px;
-    margin-left: 90px;
-    border-radius: 15px;
-    border: 1px solid black;
-}
-.sub1{
-    width: 200px;
-    border-radius: 20px;
-    padding: 15px;
     font-size: 20px;
-    background-color: aqua;
-    color: black;
-    position: relative;
-    top: -60px;
-    left: 150px;
-}
-.rtn{
-    width: 400px;
-    height: 200px;
-    background-color: blueviolet;
-    border: 2px solid red;
+    background-color: aquamarine;
+    padding: 0px 5px 0px 8px;
     border-radius: 20px;
+    height: 60px;
+    margin: 5px;
 }
-.rtn1{
-    width: 200px;
-    
-    height: 40px;
-    padding: 20px;
-    margin: 10px;
-    border-radius: 20px;
-    background-color: chocolate;
-    border: 1px solid red;
+.formcontainer{
+    width: 100%;
+    font-size: 25px;
+    text-align: center;
 }
+h1{
+    text-align: center;
+}
+.element{
+    margin: 20px 0px 0px 0px;
+}
+.submitbtn{
+    width: 100px;
+   height: 60px;
+   margin-top: 20px;
+   background-color: green;
+   padding: 5px;
+   font-size: 25px;
+   border-radius: 20px;
+}
+.submitbtn:hover{
+    background-color: yellowgreen;
+}
+.output-container{
+    margin: 50px 0 0 5px;
+    width: 90vw;
+    display: flex;
+    flex-wrap: wrap;
+    border: 2px solid black;
+    box-sizing: content-box;
+}
+.inner-container{
+    margin: 2% 5% 2% 5%;
+    padding: 1% 2% 1% 2%;
+    box-sizing: content-box;
+    min-width: 300px;
+    font-size: 15px;
+    height: 60px;
+    border: 1px solid black;
+    background-color: orange;
+    border-radius: 50px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
