@@ -6,11 +6,18 @@ import './style.css'
      name:'',
      dept:'',
      rating:'',
+     clicked:false,
      tempArray:[]
    }
-   funchanlar=(event)=>{
-     this.setState=({
+  
+   funchandlar=(event)=>{
+     this.setState({
        [event.target.name]:event.target.value
+     });
+   }
+   changeState(val){
+     this.setStste({
+       clicked:{val}
      })
    }
    buttonhandlar=(event)=>{
@@ -20,13 +27,19 @@ import './style.css'
    const tempobj={
      name:this.state.name,
      dept:this.state.dept,
-     rating:this.state.rating
+     rating:this.state.rating,
+     count:this.state.count
    }
+  
    this.state.tempArray.push(tempobj)
+
+
    this.setState({
+     clicked:true,
     name:'',
     dept:'',
-    rating:''
+    rating:'',
+    
    })
    }
   render() {
@@ -44,10 +57,11 @@ import './style.css'
         </form>
           <button className='submitbtn' type='submit' onClick={this.buttonhandlar.bind(this)}>SUBMIT</button>
           <div className='output-container'>
-          {this.state.tempArray.length >0 && this.state.tempArray.map((element)=>{
+          {this.state.tempArray.length >0 && this.state.tempArray.map((elm)=>{
+            
             return(
               <div className="inner-container">
-                <h2> {element.name} || {element.dept} || {element.rating}</h2>
+                <h2>  {elm.name} || {elm.dept} || {elm.rating}</h2>
               </div>
             )
           })
