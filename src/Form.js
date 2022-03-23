@@ -50,7 +50,7 @@ import './style.css'
           <input className='input-box' type="text" id='name' name='name' value={this.state.value} onChange={this.funchandlar} />
           <br />
           <label className='element' htmlFor="dept">DEPARTMENT</label>
-          <input className='input-box' type="text" id='dept' name='dept' value={this.state.value} onChangr={this.funchandlar} />
+          <input className='input-box' type="text" id='dept' name='dept' value={this.state.value} onChange={this.funchandlar} />
           <br />
           <label className='element' htmlFor="rating">RATING</label>
           <input className='input-box' type="text" id='rating' name='rating' value={this.state.value} onChange={this.funchandlar} />
